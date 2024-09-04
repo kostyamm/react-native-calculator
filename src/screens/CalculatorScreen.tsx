@@ -1,13 +1,13 @@
 import { FC, useState } from 'react';
-import { RootStackParamList } from '../../App';
-import { StackScreenProps } from '@react-navigation/stack';
+import { RootDrawerParamList } from '../../App';
 import { ThemeText } from '../components/ThemeText';
 import { ThemeButton } from '../components/ThemeButton';
 import { ViewContainer } from '../components/ViewContainer';
 import { StyleSheet, View } from 'react-native';
 import { ButtonItem, BUTTONS, Operations } from '../constants';
+import { DrawerScreenProps } from '@react-navigation/drawer';
 
-export const CalculatorScreen: FC<StackScreenProps<RootStackParamList, 'Calculator'>> = () => {
+export const CalculatorScreen: FC<DrawerScreenProps<RootDrawerParamList, 'Calculator'>> = () => {
     const [inputValue, setInputValue] = useState<number | null>(null);
     const [resultValue, setResultValue] = useState<number>(0);
     const [currentOperation, setCurrentOperation] = useState<Operations | null>(null);

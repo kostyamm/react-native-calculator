@@ -9,3 +9,5 @@ Just a calculator in iPhone style
 ## Screenshots 🤳
 <img src="assets/screenshots/calculator-1.png" alt="Calculator" style="width:320px;"/>
 <img src="assets/screenshots/calculator-2.png" alt="Calculator" style="width:320px;"/>
+<img src="assets/screenshots/calculator-3.png" alt="Calculator" style="width:320px;"/>
+<img src="assets/screenshots/calculator-4.png" alt="Calculator" style="width:320px;"/>
